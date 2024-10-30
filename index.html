@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <title>Switch Lists</title>
+    </head>
+    <body>
+        <h1>Pick which list you would like to see!</h1>
+        <div>
+            <input type="radio" id="Sweet" name="List" />
+            <label for="Sweet">Sweet</label>
+        </div>
+        <div>
+            <input type="radio" id="Savory" name="List" />
+            <label for="Savory">Savory</label>
+        </div>
+
+        <button id="List-Button" onclick="changeList()">Display list!</button>
+
+    <div id="Sweet-List" class="list">
+        <h2>Sweet List</h2>
+        <ul>
+            <li>Apple pie</li>
+            <li>Cupcakes</li>
+            <li>Cookies</li>
+        </ul>
+    </div>
+
+    <div id="Savory-List" class="list">
+        <h2>Savory List</h2>
+        <ul>
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Mac and Cheese</li>
+        </ul>
+    </div>
+
+    </body>
+
+    <script src="js/index.js"></script>
+
+</html>
